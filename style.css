@@ -1,0 +1,284 @@
+.view{
+}
+.flexbox-container-1{
+  display: flex;
+  width: auto;
+  height: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff;
+}
+.flexbox-item{
+  display: flex;
+}
+.flexbox-item-2{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.flexbox-container-2{
+  display: flex;
+  width: auto;
+  align-items: flex-start;
+  background: #f5f5f5;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height:100vh;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+}
+.Dashboard{
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  height: 28%;
+  background-color: #f5f5f5;
+  justify-content: space-evenly;
+  padding-right: 10px;
+}
+.dashboard1, .dashboard2, .dashboard3, .dashboard4{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 0 0 10px;
+  gap: 9px;
+}
+
+.Dashboard2{
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  height: 20%;
+  background-color: #fff;
+  
+}
+.dashboard5, .dashboard6, .dashboard7, .dashboard8{
+  display: flex;
+  height: 25px;
+  width: 100%;
+  padding-left: 10px;
+  background-color: #fff;
+  justify-content: space-between;
+}
+.dashboard4{
+  height: 30px;
+}
+.Dashboard-3{
+  display: flex;
+  flex-direction: column;
+  width: 89%;
+}
+.dashboard9, .dashboard10, .dashboard11{
+  display: flex;
+  height: 30px;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  gap: 9px;
+}
+.dashboard1:hover, .dashboard2:hover, .dashboard3:hover, .dashboard4:hover, .dashboard5:hover, .dashboard6:hover, .dashboard7:hover, .dashboard8:hover, .dashboard9:hover, .dashboard10:hover, .dashboard11:hover{
+  background-color: #f5f5f5;
+}
+.header{
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.Main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  width: calc(100vw - 250px);u 
+}
+.breadcrumbnav{
+  list-style: none;
+}
+.breadcrumbnav li{
+  display: inline;
+  color: #222;
+}
+.breadcrumbnav li ::after{
+  content: " > ";
+}
+.breadcrumbnav li:last-child::after{
+  content: "";
+}
+.breadcrumbnav a {
+  font-weight: normal; text-decoration: none; color: #222;
+}
+.breadcrumbnav a:hover{
+  text-decoration: underline; font-weight: bold;
+}
+.Title{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.button{
+  background: #212143;
+  border-color: #fff ;
+  border-radius: 6px;
+  display: flex;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+}
+.button:hover{
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  color: blue;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 720px;
+  width: 98%;
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 0px;
+}
+.main-sub{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+  border: 3px #222 none;
+  flex-wrap: wrap;
+}
+.Department:hover, .Leave:hover, .Work:hover, .Users:hover, .box-2:hover{
+  border-color: blue;
+  background-color: white;
+  color: blue;
+}
+.box-1{
+  display: flex; 
+  width: 400px;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.Department, .Leave, .Work, .Users, .box-2{
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(206, 200, 200);
+  width: 100px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
+.Leave{
+  width: 150px;
+}
+.box-2{
+  border-radius: 5px;
+  gap: 5px;
+}
+.number{
+  display: flex;
+  justify-content: space-between;
+  border: 1px ridge rgb(206, 200, 200);
+  border-radius: 5px;
+  padding: 10px;
+}
+.num-1, .num-2, .num-3{
+  display: flex;
+  flex-direction: column;
+  border-right: 1px ridge rgb(206, 200, 200);
+  width: 30.5%;
+}
+.num-3{
+  border-right: 0px;
+}
+.search{
+  display: flex;
+  border: 1px ridge rgb(206, 200, 200);
+  border-radius: 5px;
+  padding: 5px;
+  gap: 9px;
+  height: 8px;
+}
+.image img{
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 0px
+}
+.search{
+  display: flex;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+.Names{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.head{
+  display: flex;
+  background-color: #f5f5f5;
+  border: 1px ridge white;
+}
+.Name1, .Date1, .time1, .Post1, .dut1, .typeing1{
+  display: flex;
+  justify-content: center;
+  border: 1px ridge rgb(206, 200, 200);
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+.Name-1, .Name-2, .Name-3, .Name-4, .Name-5, .Name-6{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  height: 40px;
+}
+.Name-1 img, .Name-2 img, .Name-3 img, .Name-4 img, .Name-5 img, .Name-6 img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 0px;
+}
+.PN{
+  display: flex;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  padding: 9px;
+}
+.arrow:hover, .Prev:hover, .Next:hover, .One:hover, .ten:hover{
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+.end{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.Prev, .Next, .One, .ten{
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  border: 1px ridge rgb(206, 200, 200);
+  width: 50px;
+  border-radius: 5px;
+}
+.arrow{
+  display: flex;
+  justify-content: center;
+  border: 1px ridge rgb(206, 200, 200);
+  width: 30px;
+  border-radius: 5px;
+}
